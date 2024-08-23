@@ -454,3 +454,7 @@ nav {
 .formulario .hidden {
   display: none;
 }
+
+.formulario .recaptcha {
+  margin-top: 24px;
+}
