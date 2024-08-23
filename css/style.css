@@ -450,3 +450,7 @@ nav {
   line-height: 2rem;
   width: 100%;
 }
+
+.formulario .hidden {
+  display: none;
+}

@@ -154,8 +154,13 @@
           <li><a href="#oracao">Oração</a></li>
         </ul>
 
-        <form name="contato" netlify class="formulario">
+        <form name="contato" netlify method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true" class="formulario">
           <h3>Entre em contato</h3>
+          <p class="hidden">
+            <label>
+              Não preencha se você for humano: <input name="bot-field" />
+            </label>
+          </p>
           <label for="Nome">
             <p>Nome:</p>
             <input type="text" name="Nome">
@@ -168,6 +173,7 @@
             <p>Whatsapp:</p>
             <input type="text" name="Whatsapp">
           </label>
+          <div data-netlify-recaptcha="true"></div>
           <p><button type="submit">Enviar</button></p>
         </form>
       </div>
