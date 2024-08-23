@@ -462,3 +462,116 @@ nav {
 .formulario .recaptcha {
   margin-top: 24px;
 }
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .header {
+    display: block;
+  }
+
+  .header .quote {
+    display: none;
+    justify-self: start;
+  }
+
+  .header .social {
+    gap: 12px;
+    justify-self: end;
+  }
+
+  .header .logo {
+    justify-self: start;
+  }
+
+  .header__top {
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu {
+    gap: initial;
+  }
+
+  .menu a {
+    font-size: 1rem;
+  }
+
+  .hero {
+    height: 400px;
+  }
+
+  .hero__conteudo {
+    max-width: 100%;
+    padding-right: 12px;
+  }
+
+  .hero__conteudo h1 {
+    font-size: 2rem;
+    max-width: 60%;
+    justify-self: end;
+  }
+
+  .hero__conteudo .assinatura {
+    font-size: 2rem;
+  }
+
+  .vida__conteudo {
+    padding: 60px 12px;
+    grid-template-columns: 1fr;
+  }
+  .vida__conteudo img {
+    display: none;
+  }
+
+  .timeline {
+    display: none;
+  }
+
+  .milagres {
+    background-position: right;
+  }
+  .milagres .col {
+    padding: 60px 12px;
+    max-width: 100%;
+  }
+
+  .legado {
+    padding: 60px 12px;
+  }
+  .legado .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .oracao__conteudo {
+    grid-template-columns: 1fr;
+    padding: 60px 12px;
+  }
+
+  .oracao__texto {
+    z-index: 0;
+    max-width: 80%;
+  }
+
+  .oracao__conteudo img {
+    margin-top: -80px;
+    justify-self: end;
+    max-width: 50%;
+  }
+
+  .rodape__grid {
+    grid-template-columns: 1fr;
+    padding: 60px 12px;
+  }
+
+  .rodape .col {
+    max-width: 80%;
+  }
+
+  .rodape .col:nth-child(1) {
+    order: 2;
+    margin-top: 32px;
+  }
+}
