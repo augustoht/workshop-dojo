@@ -390,6 +390,11 @@ nav {
   color: #9c9c9c;
 }
 
+.rodape .col:nth-child(2) {
+  border-left: 1px solid #9c9c9c;
+  padding-left: 20px;
+}
+
 .rodape p {
   color: #9c9c9c;
   font-size: 1rem;
@@ -401,8 +406,6 @@ nav {
 }
 .rodape ul {
   height: 100px;
-  padding-left: 40px;
-  border-left: 1px solid #9c9c9c;
   display: flex;
   gap: 20px;
 }
@@ -420,4 +423,30 @@ nav {
 .rodape .cr {
   text-align: center;
   padding-bottom: 12px;
+}
+
+.formulario p {
+  font-size: 1.2rem;
+  margin-top: 12px;
+}
+
+.formulario button {
+  margin-top: 12px;
+  background-color: #011d67;
+  border: none;
+  padding: 12px 48px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #f8f8f8;
+  border-radius: 4px;
+}
+
+.formulario button:hover {
+  background-color: #00103b;
+  color: #9c9c9c;
+}
+
+.formulario input {
+  line-height: 2rem;
+  width: 100%;
 }
