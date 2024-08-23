@@ -29,10 +29,11 @@
 
   <nav>
     <ul class="menu">
-      <li><a href="#">Vida</a></li>
-      <li><a href="#">Milagres</a></li>
-      <li><a href="#">Legado</a></li>
-      <li><a href="#">Oração</a></li>
+      <li><a href="#vida">Vida</a></li>
+      <li><a href="#milagres">Milagres</a></li>
+      <li><a href="#legado">Legado</a></li>
+      <li><a href="#oracao">Oração</a></li>
+      <li><a href="#contato">Contato</a></li>
     </ul>
   </nav>
 
@@ -80,28 +81,28 @@
             <img src="img/madonna.jpg" alt="">
             <div class="card__content">
               <h3>Aparições de Nossa Senhora</h3>
-              <a href="#">Visitar</a>
+              <a href="http://www.apparizionimadonna.org/it/avm/" target="_blank">Visitar</a>
             </div>
           </div>
           <div class="card">
             <img src="img/eucharistic-miracles.jpg" alt="">
             <div class="card__content">
               <h3>Milagres Eucarísticos</h3>
-              <a href="#">Visitar</a>
+              <a href="http://www.miracolieucaristici.org/" target="_blank">Visitar</a>
             </div>
           </div>
           <div class="card">
             <img src="img/hell-paradise.jpg" alt="">
             <div class="card__content">
               <h3>Inferno, Purgatório e Paraíso</h3>
-              <a href="#">Visitar</a>
+              <a href="http://www.carloacutis.net/InfernoPurgatorioParadiso/" target="_blank">Visitar</a>
             </div>
           </div>
           <div class="card">
             <img src="img/angels-demons.jpg" alt="">
             <div class="card__content">
               <h3>Aparições de Anjos e Demônios</h3>
-              <a href="#">Visitar</a>
+              <a href="http://www.carloacutis.net/AngeliDemoni/" target="_blank">Visitar</a>
             </div>
           </div>
         </div>
@@ -132,20 +133,10 @@
         <img src="img/carlo-2.jpg" alt="foto de Carlo ainda menino vestido de batina e segurando um rosário.">
       </div>
     </article>
-
-
-
-
   </main>
 
   <footer class="rodape">
     <div class="rodape__grid">
-      <div class="col">
-        <h3>Créditos</h3>
-        <p>Fotos e oração do Beato Carlo Acutis extraídas do site Oficial da Associação Carlo Acutis</p>
-        <a href="http://carloacutis.com/pt/association">http://carloacutis.com/pt/association</a>
-      </div>
-
       <div class="col">
         <ul>
           <li><a href="#vida">Vida</a></li>
@@ -153,8 +144,13 @@
           <li><a href="#legado">Legado</a></li>
           <li><a href="#oracao">Oração</a></li>
         </ul>
+        <h3>Créditos</h3>
+        <p>Fotos e oração do Beato Carlo Acutis extraídas do site Oficial da Associação Carlo Acutis</p>
+        <a href="http://carloacutis.com/pt/association">http://carloacutis.com/pt/association</a>
+      </div>
 
-        <form name="contato" netlify method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true" class="formulario">
+      <div class="col">
+        <form id="contato" name="contato" netlify method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true" class="formulario">
           <h3>Entre em contato</h3>
           <p class="hidden">
             <label>
